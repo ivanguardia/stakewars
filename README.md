@@ -1,9 +1,14 @@
-# Stake Wars III
+### 1.1 Create a wallet
+![](https://www.oceanblock.co/wp-content/uploads/2022/07/guardia-wallet.jpg)
 
-## Documentation for STAKE WARS III
+### 1.2 Setup NEAR-CLI
 
-> pool_id: guardia.factory.shardnet.near
-> 
-> account_id: guardia.shardnet.near
+	> sudo apt update && sudo apt upgrade -y
 
-##### Autor: Iván Guardia
+	> curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -  
+	> sudo apt install build-essential nodejs
+	> PATH="$PATH"
+
+	> near@near:~$ node -v; npm -v;
+	v18.6.0
+	8.13.2
