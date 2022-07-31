@@ -257,7 +257,7 @@ Crear el validador en un DataCenter y documentar.
 	 near validators current | grep $POOLID >> $LOGS/all.log
 	 near validators next | grep $POOLID >> $LOGS/all.log
 
-### 6.2 Create cron
+### 6.2 Crear tarea cron
 Ejecutar cada 2 horas
 
 	crontab -e
@@ -266,7 +266,7 @@ Ejecutar cada 2 horas
 	0 */2 * * * sh /home/usuario/scripts/ping.sh
 
 
-### 6.3 Check logs
+### 6.3 Comprobar logs
 	cat ~/logs/all.log
 >sáb 23 jul 2022 01:10:01 CEST
 > 
