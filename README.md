@@ -226,12 +226,16 @@ Script
 ![](https://www.oceanblock.co/wp-content/uploads/2022/07/guardia-explorer2.jpg)
 
 ## Challenge 5
-Crear el validador en un DataCenter y documentar
+Crear el validador en un DataCenter y documentar.
+
 > Dar de alta en Hetzner un servidor dedicado en Hetznet.
 > 
 > Hacer este documento.
 > 
+![](https://raw.githubusercontent.com/ivanguardia/stakewarsiii/main/hetzner.jpg)
+> 
 > Rellenar y enviar el formulario del Challenge 5.
+
 
 ## Challenge 6
 
