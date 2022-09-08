@@ -1,0 +1,8 @@
+METRIC1=`curl -s http://127.0.0.1:3030/status`
+METRIC2=`curl -s http://127.0.0.1:3030/network_info`
+BOT_TOKEN=5567476294:AAGjWkSN165afmmkSjWKt-21555Bmkz91p8
+CHANNEL_ID=#-1792160161
+curl -s -X POST https://api.telegram.org/bot${BOT_TOKEN}/sendMessage \
+-d chat_id=${CHANNEL_ID} \
+-d parse_mode="Markdown" \
+-d text="guardia.factory.shardnet.near %0A\${METRIC1}\\%0A\${METRIC2}\\"
